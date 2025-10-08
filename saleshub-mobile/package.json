@@ -1,0 +1,49 @@
+{
+  "name": "saleshub-mobile",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "bundle:visualize": "npx react-native-bundle-visualizer --platform android --dev false"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^2.2.0",
+    "@react-native-community/netinfo": "^11.4.1",
+    "@react-navigation/bottom-tabs": "^7.4.8",
+    "@react-navigation/native": "^7.1.18",
+    "@react-navigation/stack": "^7.4.9",
+    "@supabase/supabase-js": "^2.74.0",
+    "@tanstack/react-query": "^5.90.2",
+    "expo": "~54.0.12",
+    "expo-background-fetch": "^14.0.7",
+    "expo-status-bar": "~3.0.8",
+    "expo-task-manager": "^14.0.7",
+    "react": "19.1.0",
+    "react-native": "0.81.4",
+    "react-native-chart-kit": "^6.12.0",
+    "react-native-linear-gradient": "^2.8.3",
+    "react-native-paper": "^5.14.5",
+    "react-native-safe-area-context": "^5.6.1",
+    "react-native-screens": "^4.16.0",
+    "react-native-web": "^0.21.0",
+    "zustand": "^5.0.8"
+  },
+  "devDependencies": {
+    "@expo/metro-config": "^54.0.6",
+    "@react-native-community/cli": "^20.0.2",
+    "@types/react": "~19.1.0",
+    "@typescript-eslint/eslint-plugin": "^8.46.0",
+    "@typescript-eslint/parser": "^8.46.0",
+    "eslint": "^9.37.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.4",
+    "eslint-plugin-react-native": "^5.0.0",
+    "prettier": "^3.6.2",
+    "react-native-bundle-visualizer": "^3.1.3",
+    "typescript": "~5.9.2"
+  },
+  "private": true
+}
